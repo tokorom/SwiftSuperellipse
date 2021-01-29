@@ -7,7 +7,7 @@
 import UIKit
 
 public struct Superellipse {
-  let bezierPath: UIBezierPath
+  public let bezierPath: UIBezierPath
 
   public init(in rect: CGRect, k: CGFloat) {
     let path = UIBezierPath(ovalIn: rect)
