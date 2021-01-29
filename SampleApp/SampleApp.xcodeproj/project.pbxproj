@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31B6DE325C3D9AB00DC4D1E /* SwiftSuperellipse in Frameworks */ = {isa = PBXBuildFile; productRef = F31B6DE225C3D9AB00DC4D1E /* SwiftSuperellipse */; };
 		F3EA0BAB25C3AF1E00C879EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EA0BAA25C3AF1E00C879EA /* AppDelegate.swift */; };
 		F3EA0BAD25C3AF1E00C879EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EA0BAC25C3AF1E00C879EA /* SceneDelegate.swift */; };
 		F3EA0BAF25C3AF1E00C879EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EA0BAE25C3AF1E00C879EA /* ViewController.swift */; };
 		F3EA0BB225C3AF1E00C879EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB025C3AF1E00C879EA /* Main.storyboard */; };
 		F3EA0BB425C3AF1E00C879EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB325C3AF1E00C879EA /* Assets.xcassets */; };
 		F3EA0BB725C3AF1E00C879EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB525C3AF1E00C879EA /* LaunchScreen.storyboard */; };
-		F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */; };
-		F3F1033325C3C9FC008E56A0 /* Superellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1033225C3C9FC008E56A0 /* Superellipse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,6 @@
 		F3EA0BB325C3AF1E00C879EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3EA0BB625C3AF1E00C879EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EA0BB825C3AF1E00C879EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperellipseView.swift; sourceTree = "<group>"; };
-		F3F1033225C3C9FC008E56A0 /* Superellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superellipse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31B6DE325C3D9AB00DC4D1E /* SwiftSuperellipse in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +42,6 @@
 		F3EA0B9E25C3AF1E00C879EA = {
 			isa = PBXGroup;
 			children = (
-				F3F1032A25C3BE42008E56A0 /* swift-superellipse */,
 				F3EA0BA925C3AF1E00C879EA /* SampleApp */,
 				F3EA0BA825C3AF1E00C879EA /* Products */,
 			);
@@ -72,16 +69,6 @@
 			path = SampleApp;
 			sourceTree = "<group>";
 		};
-		F3F1032A25C3BE42008E56A0 /* swift-superellipse */ = {
-			isa = PBXGroup;
-			children = (
-				F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */,
-				F3F1033225C3C9FC008E56A0 /* Superellipse.swift */,
-			);
-			name = "swift-superellipse";
-			path = "../Sources/swift-superellipse";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +86,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
+				F31B6DE225C3D9AB00DC4D1E /* SwiftSuperellipse */,
 			);
 			productName = SampleApp;
 			productReference = F3EA0BA725C3AF1E00C879EA /* SampleApp.app */;
@@ -128,6 +116,7 @@
 			);
 			mainGroup = F3EA0B9E25C3AF1E00C879EA;
 			packageReferences = (
+				F31B6DE125C3D9AB00DC4D1E /* XCRemoteSwiftPackageReference "SwiftSuperellipse" */,
 			);
 			productRefGroup = F3EA0BA825C3AF1E00C879EA /* Products */;
 			projectDirPath = "";
@@ -157,9 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EA0BAF25C3AF1E00C879EA /* ViewController.swift in Sources */,
-				F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */,
 				F3EA0BAB25C3AF1E00C879EA /* AppDelegate.swift in Sources */,
-				F3F1033325C3C9FC008E56A0 /* Superellipse.swift in Sources */,
 				F3EA0BAD25C3AF1E00C879EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F31B6DE125C3D9AB00DC4D1E /* XCRemoteSwiftPackageReference "SwiftSuperellipse" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tokorom/SwiftSuperellipse";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F31B6DE225C3D9AB00DC4D1E /* SwiftSuperellipse */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31B6DE125C3D9AB00DC4D1E /* XCRemoteSwiftPackageReference "SwiftSuperellipse" */;
+			productName = SwiftSuperellipse;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3EA0B9F25C3AF1E00C879EA /* Project object */;
 }

@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="n4g-Mt-6m5">
                                 <rect key="frame" x="107" y="168" width="200" height="560"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A22-tb-zJB" customClass="SuperellipseView" customModule="SampleApp" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A22-tb-zJB" customClass="SuperellipseView" customModule="SwiftSuperellipse">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
@@ -27,7 +27,7 @@
                                             <constraint firstAttribute="height" constant="200" id="eRN-eD-ieD"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rad-wD-GlI" customClass="SuperellipseView" customModule="SampleApp" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rad-wD-GlI" customClass="SuperellipseView" customModule="SwiftSuperellipse">
                                         <rect key="frame" x="0.0" y="220" width="200" height="100"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
@@ -40,7 +40,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPs-Yl-OGw" customClass="SuperellipseView" customModule="SampleApp" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPs-Yl-OGw" customClass="SuperellipseView" customModule="SwiftSuperellipse">
                                         <rect key="frame" x="0.0" y="340" width="200" height="100"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <constraints>
@@ -53,7 +53,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVh-j9-DwL" customClass="SuperellipseView" customModule="SampleApp" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVh-j9-DwL" customClass="SuperellipseView" customModule="SwiftSuperellipse">
                                         <rect key="frame" x="50" y="460" width="100" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mayuge_dog_face" translatesAutoresizingMaskIntoConstraints="NO" id="rHg-1N-7OO">
