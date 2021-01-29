@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let superellipseView = SuperellipseView(frame: CGRect(x: 10, y: 10, width: 200, height: 150))
+        superellipseView.backgroundColor = .black
         view.addSubview(superellipseView)
     }
 

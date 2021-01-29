@@ -10,11 +10,6 @@ import UIKit
 public final class SuperellipseView: UIView {
   @IBInspectable public var k: CGFloat = 0.75
 
-  public override func draw(_ rect: CGRect) {
-    backgroundColor?.setFill()
-    Superellipse(in: rect, k: k).bezierPath.fill()
-  }
-
   public override func layoutSubviews() {
     super.layoutSubviews()
 
