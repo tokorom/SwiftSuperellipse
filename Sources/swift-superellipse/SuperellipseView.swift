@@ -7,11 +7,12 @@
 import UIKit
 
 @IBDesignable
-final class SuperellipseView: UIView {
+public final class SuperellipseView: UIView {
   @IBInspectable var color: UIColor? = .systemBlue
+  @IBInspectable var k: CGFloat = 0.75
 
-  override func draw(_ rect: CGRect) {
-    let path = UIBezierPath(ovalIn: rect)
-    path.fill()
+  public override func draw(_ rect: CGRect) {
+    color?.setFill()
+    Superellipse(in: rect, k: k).bezierPath.fill()
   }
 }

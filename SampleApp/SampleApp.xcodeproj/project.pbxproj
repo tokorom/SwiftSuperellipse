@@ -14,6 +14,7 @@
 		F3EA0BB425C3AF1E00C879EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB325C3AF1E00C879EA /* Assets.xcassets */; };
 		F3EA0BB725C3AF1E00C879EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB525C3AF1E00C879EA /* LaunchScreen.storyboard */; };
 		F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */; };
+		F3F1033325C3C9FC008E56A0 /* Superellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1033225C3C9FC008E56A0 /* Superellipse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F3EA0BB625C3AF1E00C879EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EA0BB825C3AF1E00C879EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperellipseView.swift; sourceTree = "<group>"; };
+		F3F1033225C3C9FC008E56A0 /* Superellipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superellipse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */,
+				F3F1033225C3C9FC008E56A0 /* Superellipse.swift */,
 			);
 			name = "swift-superellipse";
 			path = "../Sources/swift-superellipse";
@@ -156,6 +159,7 @@
 				F3EA0BAF25C3AF1E00C879EA /* ViewController.swift in Sources */,
 				F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */,
 				F3EA0BAB25C3AF1E00C879EA /* AppDelegate.swift in Sources */,
+				F3F1033325C3C9FC008E56A0 /* Superellipse.swift in Sources */,
 				F3EA0BAD25C3AF1E00C879EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
