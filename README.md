@@ -4,6 +4,9 @@
 
 ## Features
 
+- Superellipse view can be added
+- Any UIView subclass can be masked to Superellipse
+
 ## Usage
 
 ### Sample Code
