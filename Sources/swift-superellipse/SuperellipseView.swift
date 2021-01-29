@@ -8,7 +8,7 @@ import UIKit
 
 @IBDesignable
 public final class SuperellipseView: UIView {
-  @IBInspectable var k: CGFloat = 0.75
+  @IBInspectable public var k: CGFloat = 0.75
 
   public override func draw(_ rect: CGRect) {
     backgroundColor?.setFill()
