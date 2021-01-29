@@ -13,6 +13,7 @@
 		F3EA0BB225C3AF1E00C879EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB025C3AF1E00C879EA /* Main.storyboard */; };
 		F3EA0BB425C3AF1E00C879EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB325C3AF1E00C879EA /* Assets.xcassets */; };
 		F3EA0BB725C3AF1E00C879EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EA0BB525C3AF1E00C879EA /* LaunchScreen.storyboard */; };
+		F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F3EA0BB325C3AF1E00C879EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3EA0BB625C3AF1E00C879EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EA0BB825C3AF1E00C879EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperellipseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		F3EA0B9E25C3AF1E00C879EA = {
 			isa = PBXGroup;
 			children = (
+				F3F1032A25C3BE42008E56A0 /* swift-superellipse */,
 				F3EA0BA925C3AF1E00C879EA /* SampleApp */,
 				F3EA0BA825C3AF1E00C879EA /* Products */,
 			);
@@ -67,6 +70,15 @@
 			path = SampleApp;
 			sourceTree = "<group>";
 		};
+		F3F1032A25C3BE42008E56A0 /* swift-superellipse */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1032B25C3BE42008E56A0 /* SuperellipseView.swift */,
+			);
+			name = "swift-superellipse";
+			path = "../Sources/swift-superellipse";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +95,8 @@
 			dependencies = (
 			);
 			name = SampleApp;
+			packageProductDependencies = (
+			);
 			productName = SampleApp;
 			productReference = F3EA0BA725C3AF1E00C879EA /* SampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +124,8 @@
 				Base,
 			);
 			mainGroup = F3EA0B9E25C3AF1E00C879EA;
+			packageReferences = (
+			);
 			productRefGroup = F3EA0BA825C3AF1E00C879EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EA0BAF25C3AF1E00C879EA /* ViewController.swift in Sources */,
+				F3F1032D25C3BE42008E56A0 /* SuperellipseView.swift in Sources */,
 				F3EA0BAB25C3AF1E00C879EA /* AppDelegate.swift in Sources */,
 				F3EA0BAD25C3AF1E00C879EA /* SceneDelegate.swift in Sources */,
 			);
