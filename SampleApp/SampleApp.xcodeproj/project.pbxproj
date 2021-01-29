@@ -356,7 +356,7 @@
 			repositoryURL = "https://github.com/tokorom/SwiftSuperellipse";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
